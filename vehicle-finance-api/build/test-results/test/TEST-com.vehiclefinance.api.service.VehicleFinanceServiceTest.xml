@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.vehiclefinance.api.service.VehicleFinanceServiceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-03T16:34:28.695Z" hostname="HHYZ8J4" time="0.027">
+  <properties/>
+  <testcase name="createsCatalogueVehicleOnlyForActiveDealerAndAssignsPriceVersion()" classname="com.vehiclefinance.api.service.VehicleFinanceServiceTest" time="0.003"/>
+  <testcase name="createsKycCaseAndRequiresReasonForRework()" classname="com.vehiclefinance.api.service.VehicleFinanceServiceTest" time="0.004"/>
+  <testcase name="createsDealerBranchesAndStaffRecords()" classname="com.vehiclefinance.api.service.VehicleFinanceServiceTest" time="0.004"/>
+  <testcase name="acceptsOnlyCurrentUnexpiredOfferAndUpdatesWorkflow()" classname="com.vehiclefinance.api.service.VehicleFinanceServiceTest" time="0.003"/>
+  <testcase name="appliesVehicleFiltersAndLoanPagination()" classname="com.vehiclefinance.api.service.VehicleFinanceServiceTest" time="0.003"/>
+  <testcase name="createsAndSubmitsDraftOnlyForCurrentEligibleVehicle()" classname="com.vehiclefinance.api.service.VehicleFinanceServiceTest" time="0.004"/>
+  <testcase name="rejectsStalePriceAndInactiveDealerForOriginations()" classname="com.vehiclefinance.api.service.VehicleFinanceServiceTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

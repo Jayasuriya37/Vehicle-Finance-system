@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.DemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-03T16:34:20.466Z" hostname="HHYZ8J4" time="5.719">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.demo.DemoApplicationTests" time="1.074"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-11-03T22:04:21.639+05:30  INFO 9620 --- [    Test worker] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 17.0.18 with PID 9620 (started by 10856529 in C:\Training\Java-Workspace\vehicle-finance-api)
+2026-11-03T22:04:21.650+05:30  INFO 9620 --- [    Test worker] com.example.demo.DemoApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T22:04:23.488+05:30  INFO 9620 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-03T22:04:23.830+05:30  INFO 9620 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:vfs-test user=SA
+2026-11-03T22:04:23.833+05:30  INFO 9620 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-03T22:04:25.074+05:30  INFO 9620 --- [    Test worker] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 3.878 seconds (process running for 7.066)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
