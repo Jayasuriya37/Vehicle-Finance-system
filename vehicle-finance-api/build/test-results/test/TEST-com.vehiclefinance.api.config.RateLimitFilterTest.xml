@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.vehiclefinance.api.config.RateLimitFilterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-03T16:34:26.191Z" hostname="HHYZ8J4" time="0.019">
+  <properties/>
+  <testcase name="addsLimitHeadersAndReturnsProblemResponseWhenLimitIsExceeded()" classname="com.vehiclefinance.api.config.RateLimitFilterTest" time="0.014"/>
+  <testcase name="canBeDisabledThroughConfiguration()" classname="com.vehiclefinance.api.config.RateLimitFilterTest" time="0.001"/>
+  <testcase name="doesNotRateLimitPreflightOrNonApiRoutes()" classname="com.vehiclefinance.api.config.RateLimitFilterTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

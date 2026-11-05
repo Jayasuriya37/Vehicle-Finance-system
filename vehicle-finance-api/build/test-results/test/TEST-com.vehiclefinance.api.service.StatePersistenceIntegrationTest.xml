@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.vehiclefinance.api.service.StatePersistenceIntegrationTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-03T16:34:26.270Z" hostname="HHYZ8J4" time="2.423">
+  <properties/>
+  <testcase name="registrationRequiresBothEmailAndSmsOtpChallenges()" classname="com.vehiclefinance.api.service.StatePersistenceIntegrationTest" time="1.025"/>
+  <testcase name="acceptedOfferCanCompleteSandboxEsignAndMarkAgreementCondition()" classname="com.vehiclefinance.api.service.StatePersistenceIntegrationTest" time="0.126"/>
+  <testcase name="uploadRejectsUnsupportedDocumentCategoryAndMissingOwner()" classname="com.vehiclefinance.api.service.StatePersistenceIntegrationTest" time="0.077"/>
+  <testcase name="uploadIsDisabledUnlessExplicitlyEnabled()" classname="com.vehiclefinance.api.service.StatePersistenceIntegrationTest" time="0.03"/>
+  <testcase name="serviceSnapshotCanBeStoredAndRestoredFromJdbc()" classname="com.vehiclefinance.api.service.StatePersistenceIntegrationTest" time="0.021"/>
+  <testcase name="multipartDocumentUploadIsStoredAndLinkedAsPendingScan()" classname="com.vehiclefinance.api.service.StatePersistenceIntegrationTest" time="0.034"/>
+  <system-out><![CDATA[2026-11-03T22:04:26.273+05:30  INFO 9620 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.vehiclefinance.api.service.StatePersistenceIntegrationTest]: StatePersistenceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-03T22:04:26.292+05:30  INFO 9620 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.vehiclefinance.api.VehicleFinanceApiApplication for test class com.vehiclefinance.api.service.StatePersistenceIntegrationTest
+2026-11-03T22:04:26.294+05:30  INFO 9620 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.vehiclefinance.api.service.StatePersistenceIntegrationTest]: StatePersistenceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-03T22:04:26.295+05:30  INFO 9620 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.vehiclefinance.api.VehicleFinanceApiApplication for test class com.vehiclefinance.api.service.StatePersistenceIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-11-03T22:04:26.359+05:30  INFO 9620 --- [    Test worker] c.v.a.s.StatePersistenceIntegrationTest  : Starting StatePersistenceIntegrationTest using Java 17.0.18 with PID 9620 (started by 10856529 in C:\Training\Java-Workspace\vehicle-finance-api)
+2026-11-03T22:04:26.359+05:30  INFO 9620 --- [    Test worker] c.v.a.s.StatePersistenceIntegrationTest  : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T22:04:26.887+05:30  INFO 9620 --- [    Test worker] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 0 (http)
+2026-11-03T22:04:26.904+05:30  INFO 9620 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T22:04:26.904+05:30  INFO 9620 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T22:04:26.989+05:30  INFO 9620 --- [    Test worker] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 625 ms
+2026-11-03T22:04:27.096+05:30  INFO 9620 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-11-03T22:04:27.099+05:30  INFO 9620 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:vfs-test user=SA
+2026-11-03T22:04:27.099+05:30  INFO 9620 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-11-03T22:04:27.353+05:30  INFO 9620 --- [    Test worker] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 55049 (http) with context path '/'
+2026-11-03T22:04:27.358+05:30  INFO 9620 --- [    Test worker] c.v.a.s.StatePersistenceIntegrationTest  : Started StatePersistenceIntegrationTest in 1.056 seconds (process running for 9.35)
+2026-11-03T22:04:27.897+05:30  INFO 9620 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-03T22:04:27.897+05:30  INFO 9620 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-03T22:04:27.899+05:30  INFO 9620 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
